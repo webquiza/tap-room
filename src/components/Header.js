@@ -10,7 +10,7 @@ function Header(props){
   return (
     <React.Fragment>
       <div style={Header}>
-        <h1>Merch Shop</h1>
+        <h1>Tap Room</h1>
         <img src={beerImage} alt="beer" />
       </div>
     </React.Fragment>
