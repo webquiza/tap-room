@@ -5,7 +5,6 @@ import beerImage from "./../img/beer.jpg";
 function Header(props){
   const Header = {
     color: '#457b9d',
-    fontFamily: 'futura'
   }
   return (
     <React.Fragment>
