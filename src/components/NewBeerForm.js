@@ -3,30 +3,30 @@ import { v4 } from 'uuid';
 import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
 
-function NewMerchForm(props) {
+function NewBeerForm(props) {
 
-  function handleNewMerchFormSubmission(event) {
+  function handleNewBeerFormSubmission(event) {
     event.preventDefault();
-    props.onNewMerchCreation({
+    props.onNewBeerCreation({
       name: event.target.name.value,
       description: event.target.description.value, 
       quantity: parseInt(event.target.quantity.value), 
-      id: v4(),
+      id: v4()
     });
   }
 
   return (
     <React.Fragment>
       <ReusableForm 
-        formSubmissionHandler={handleNewMerchFormSubmission}
+        formSubmissionHandler={handleNewBeerFormSubmission}
         buttonText="Submit" 
       />
     </React.Fragment>
   );
 }
 
-NewMerchForm.propTypes = {
-  onNewMerchCreation: PropTypes.func,
+NewBeerForm.propTypes = {
+  onNewBeerCreation: PropTypes.func,
 };
 
-export default NewMerchForm;
+export default NewBeerForm;
