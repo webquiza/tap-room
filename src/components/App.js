@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header";
-import MerchControl from "./MerchControl";
+import BeerControl from "./BeerControl";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App(){
   return ( 
     <React.Fragment>
       <Header />
-      <MerchControl />
+      <BeerControl />
     </React.Fragment>
   );
 }
