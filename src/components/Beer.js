@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Merch(props){
+function Beer(props){
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenMerchClicked(props.id)}>
+      <div onClick = {() => props.whenBeerClicked(props.id)}>
         <h3>
           {props.description} - {props.name}
         </h3>
@@ -21,12 +21,12 @@ function Merch(props){
   );
 }
 
-Merch.propTypes = {
+Beer.propTypes = {
   name: PropTypes.string,
   description: PropTypes.string,
   quantity: PropTypes.number,
   id: PropTypes.string, 
-  whenMerchClicked: PropTypes.func
+  whenBeerClicked: PropTypes.func
 };
 
-export default Merch;
+export default Beer;
