@@ -18,7 +18,7 @@
 * _As a user, I can submit a form to add a new beer to a list._
 * _As a user, I can click on a beer to see its detail page._
 * _As a user, I can see how many pints are left of a particular beer._
-* _As a user, I can click a button next to a beer whenever I sell a pint of it. This action decreases the number of pints left by 1. Pints can not go below 0._
+* _As a user, I can click a button next to a beer whenever I sell a pint of it. This action decreases the number of pints left by 1. Pints do not go below 0._
 
 ## Setup/Installation Requirements
 
