@@ -8,10 +8,12 @@ function EditBeerForm(props){
   function handleEditBeerFormSubmission(event) {
     event.preventDefault();
     props.onEditBeer({
-      name: event.target.name.value, 
-      description: event.target.description.value, 
+      name: event.target.name.value,
+      brand: event.target.brand.value,
+      style: event.target.style.value,
+      price: event.target.price.value, 
       quantity: event.target.quantity.value, 
-      id: beer.id,
+      id: beer.id
     });
   }
 

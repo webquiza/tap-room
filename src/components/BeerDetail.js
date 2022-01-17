@@ -7,12 +7,10 @@ function BeerDetail(props) {
   return (
     <React.Fragment>
       <h1>Beer Detail</h1>
-      <h3>
-        {beer.description} - {beer.name}
-      </h3>
-      <p>
-        <em>{beer.quantity}</em>
-      </p>
+      <h3>{beer.name} - ${beer.price}</h3>
+      <h3>Brand: {beer.brand}</h3>
+      <h3>Style: {beer.style}</h3>
+      <h3>Quantity: {beer.quantity} pints</h3>
       <button onClick={props.onClickingEdit}>UpdateBeer</button>
       <button onClick={() => onClickingDelete(beer.id)}>Remove Beer</button>
       <button onClick={() => onClickingBuy(beer.id)}>Buy</button>

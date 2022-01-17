@@ -70,7 +70,7 @@ class BeerControl extends React.Component {
       const selectedBeer = this.state.mainBeerList.filter(
         (beer) => beer.id === id
       )[0];
-      selectedBeer.quantity += Number(20);
+      selectedBeer.quantity += Number(124);
       const newMainBeerList = this.state.mainBeerList
         .filter((beer) => beer.id !== id)
         .concat(selectedBeer);
@@ -81,7 +81,7 @@ class BeerControl extends React.Component {
         const selectedBeer = this.state.mainBeerList.filter(
           (beer) => beer.id === id
         )[0];
-        selectedBeer.quantity += Number(20);
+        selectedBeer.quantity += Number(124);
         const newBeerListArray = [];
         const changedBeerArray = newBeerListArray.concat(selectedBeer);
         this.setState({
@@ -136,7 +136,8 @@ class BeerControl extends React.Component {
       currentlyVisibleState = (
         <BeerDetail 
           beer = {this.state.selectedBeer} 
-          onClickingDelete = {this.handleDeletingBeer} onClickingEdit = {this.handleEditClick} 
+          onClickingDelete = {this.handleDeletingBeer} 
+          onClickingEdit = {this.handleEditClick} 
           onClickingBuy={this.handleIncrementQuantity}
           onClickingRestock={this.handleQuantityRestock}
         />

@@ -6,11 +6,11 @@ function Beer(props){
     <React.Fragment>
       <div onClick = {() => props.whenBeerClicked(props.id)}>
         <h3>
-          {props.description} - {props.name}
+          {props.name} - ${props.price}
         </h3>
         <p>
           {props.quantity > 0 ? (
-            <em>{props.quantity}</em>
+            <em><strong>{props.quantity}</strong> pints of beer left</em>
           ) : (
             <em>Out of stock</em>
           )}
@@ -23,7 +23,9 @@ function Beer(props){
 
 Beer.propTypes = {
   name: PropTypes.string,
-  description: PropTypes.string,
+  brand: PropTypes.string,
+  style: PropTypes.string,
+  price: PropTypes.number,
   quantity: PropTypes.number,
   id: PropTypes.string, 
   whenBeerClicked: PropTypes.func

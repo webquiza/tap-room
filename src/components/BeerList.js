@@ -9,7 +9,9 @@ function BeerList(props){
         <Beer
           whenBeerClicked = { props.onBeerSelection }
           name={beer.name}
-          description={beer.description}
+          brand={beer.brand}
+          style={beer.style}
+          price={beer.price}
           quantity={beer.quantity}
           id={beer.id}
           key={beer.id}  
