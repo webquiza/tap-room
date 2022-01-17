@@ -2,7 +2,7 @@
 
 #### By _**Carlos Urquiza**_
 
-#### _._
+#### _A React app for The Tap Room._
 
 ## Technologies Used
 
@@ -14,15 +14,22 @@
 
 ## Description
 
-_._
+* _As a user, I can see a list of all available beers. For each beer, I can see its name, brand, style, price and quantity._
+* _As a user, I can submit a form to add a new beer to a list._
+* _As a user, I can click on a beer to see its detail page._
+* _As a user, I can see how many pints are left of a particular beer._
+* _As a user, I can click a button next to a beer whenever I sell a pint of it. This action decreases the number of pints left by 1. Pints can not go below 0._
 
 ## Setup/Installation Requirements
 
-* _._
-* _._
-* _._
-* _._
-* _._
+* _Clone this repository._
+* _Open your terminal._
+* _Navigate to the directory (such as your Desktop) where you want the cloned directory._
+* _Type `git clone` and paste the URL you copied._
+* _Press Enter._
+* _Navigate to `tap-room` by running `cd tap-room`._
+* _Run `npm install`._
+* _Run `npm start` to view project in local host._
 
 ## Diagram
 
