@@ -6,36 +6,38 @@
 
 ## Technologies Used
 
-* _React_
-* _JavaScript_
-* _JSX_
-* _Node.js_
-* _Bootstrap_
+- _React_
+- _JavaScript_
+- _JSX_
+- _Node.js_
+- _Bootstrap_
 
 ## Description
 
-* _As a user, I can see a list of all available beers. For each beer, I can see its name, brand, style, price and quantity._
-* _As a user, I can submit a form to add a new beer to a list._
-* _As a user, I can click on a beer to see its detail page._
-* _As a user, I can see how many pints are left of a particular beer._
-* _As a user, I can click a button next to a beer whenever I sell a pint of it. This action decreases the number of pints left by 1. Pints do not go below 0._
+- _As a user, I can see a list of all available beers. For each beer, I can see its name, brand, style, price and quantity._
+- _As a user, I can submit a form to add a new beer to a list._
+- _As a user, I can click on a beer to see its detail page._
+- _As a user, I can see how many pints are left of a particular beer._
+- _As a user, I can click a button next to a beer whenever I sell a pint of it. This action decreases the number of pints left by 1. Pints do not go below 0._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository._
-* _Open your terminal._
-* _Navigate to the directory (such as your Desktop) where you want the cloned directory._
-* _Type `git clone` and paste the URL you copied._
-* _Press Enter._
-* _Navigate to `tap-room` by running `cd tap-room`._
-* _Run `npm install`._
-* _Run `npm start` to view project in local host._
+- _Clone this repository._
+- _Open your terminal._
+- _Navigate to the directory (such as your Desktop) where you want the cloned directory._
+- _Type `git clone` and paste the URL you copied._
+- _Press Enter._
+- _Navigate to `tap-room` by running `cd tap-room`._
+- _Run `npm install`._
+- _Run `npm start` to view project in local host._
 
 ## Diagram
 
+![tap-room-diagram](./src/img/tap-room.drawio.png)
+
 ## Known Bugs
 
-* _No known bugs._
+- _No known bugs._
 
 ## License
 
